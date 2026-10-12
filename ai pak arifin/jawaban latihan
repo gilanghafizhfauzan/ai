@@ -1,0 +1,18 @@
+Tugas Analisis 1: 
+Operasi Dasar NumPy ArrayBila menggunakan List Python biasa: Percobaan [5000, 7000, 3000] * 0.9 akan menghasilkan TypeError (can't multiply sequence by non-int of type 'float').
+ List Python tidak mendukung operasi perkalian langsung antar elemen (vectorized operations). Jika dikalikan dengan bilangan bulat (misal * 2), list hanya akan mengulang/menduplikasi elemennya, bukan mengalikan angkanya. 
+   Bila menggunakan NumPy Array: Operasi harga * 0.9 diproses secara otomatis ke seluruh elemen dalam array sekaligus tanpa perlu looping, menghasilkan array nilai baru: [4500., 6300., 2700., 10800., 4050.].   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
